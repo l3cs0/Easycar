@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EasyCar Fahrten</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            var count = 0;
+            var summe1 = 0.0;
+            var summe2 = 0.0;
+            function addFahrt(){
+                var currentdate = new Date(); 
+                var date = 
+                    currentdate.getDate() + "."
+                    + (currentdate.getMonth()+1)  + "." 
+                    + currentdate.getFullYear();
+                var time = 
+                    currentdate.getHours() + ":"  
+                    + currentdate.getMinutes() + ":" 
+                    + currentdate.getSeconds();
+                count++;
+                summe1 += Number(price.value);
+                summe2 += Number(tipp.value);
+                list.innerHTML +=`<tr><td>${count}</td><td>${price.value}</td><td>${tipp.value}</td><td>${time}</td><td>${date}</td></tr>`;
+                sum.innerHTML =`<tr><td>Summe: ${summe1} </td><td>Trinkgeld: ${summe2} </td></tr>`;
+                price.value = "";
+                tipp.value = "";
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="./img/Logo.png" alt="logo"> 
+            </div>
+
+            <div id="namelogo">
+                <img src="./img/NameLogo.png" alt="logo2">
+            </div>
+        </header>
+        <section id="site">
+            <form onsubmit="addFahrt(); return false;">
+                <table id="eingabe">
+                    <td><input type="text" title="Nummer im Format xxxxx,xx" name="numer" value="" pattern="\d+(.\d{1})?" required="required" id="price" placeholder="Preis" autofocus required></li>
+                    <td><input type="text" title="Nummer im Format xxxxx,xx" name="numer" value="" pattern="\d+(.\d{1})?" required="required" id="tipp" placeholder="Trinkgeld" required></li>
+                    <td><input type="submit"></li>
+                </table>
+            </form>
+            
+            <table id="list">
+                <tr>
+                    <th width="10px">Nr.: </th>
+                    <th width="50px">Preis: </th>
+                    <th width="50px">Trinkgeld: </th>
+                    <th width="100px">Uhrzeit: </th>
+                    <th width="100px">Datum: </th>
+                </tr>
+            </table>
+            <table id="sum">
+
+            </table>
+        </section>
+    </body>
+</html>
