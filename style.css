@@ -4,6 +4,7 @@ html {
     background: url(./img/Background.jpg);
     background-size: 100%;
     font-size: xx-large;
+    width: 500px;
 }
 header{
     size: 100%;
