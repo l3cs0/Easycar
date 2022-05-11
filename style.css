@@ -5,6 +5,7 @@ html {
     background-size: 100%;
     font-size: xx-large;
     width: 500px;
+    align-items: center;
 }
 header{
     size: 100%;
@@ -40,6 +41,7 @@ header{
 
 section{
     margin: 70px auto 0 auto;
+    float: left;
 }
 
 #sum td{
@@ -47,8 +49,8 @@ section{
     background-color: yellow;
 }
 
-#site{
-    float: left;
+#list{
+align-items: center;
 }
 
 #list tr{
