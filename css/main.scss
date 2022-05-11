@@ -2,7 +2,7 @@ html {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     background: url(./img/Background.jpg);
-    background-size:cover;
+    background-size: cover;
 }
 
 header {
@@ -14,54 +14,33 @@ header {
     left: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
     z-index: 1;
-}
 
-#logoleft {
-    float: left;
-    padding-left: 10px;
+    #logoleft {
+        float: left;
+        padding-left: 10px;
+    
+        img {
+            height: 50px;
+            padding-top: 5px;
+        }
+    }
 
-    img {
-        height: 50px;
-        padding-top: 5px;
+    #logoright {
+        float: right;
+        padding-right: 10px;
+    
+        img {
+            height: 40px;
+            padding-top: 10px;
+        }
     }
 }
-
-#logoright {
-    float: right;
-    padding-right: 10px;
-
-    img {
-        height: 40px;
-        padding-top: 10px;
-    }
-}
-
 
 
 section {
-    margin: 70px;
-    
-    form{
-        padding: auto;
-        width: 100%;
-    }
-    div{
-        padding: auto;
-        width: 100%;
-        position: relative;
-    }
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
 }
 
-#sum td {
-    border: 1px solid black;
-    background-color: yellow;
-}
-
-#list{
-    
-    tr {
-       border: 1px solid black;
-        border-collapse: collapse;
-    }
-}
 
