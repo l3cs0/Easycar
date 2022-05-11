@@ -38,19 +38,16 @@ header {
 }
 
 section {
-  margin: 70px auto 0 auto;
-  float: left;
+  margin-top: 70px;
+  position: absolute;
+  width: auto;
+  left: 10%;
+  right: 10%;
 }
 
 #sum td {
   border: 1px solid black;
   background-color: yellow;
-}
-
-#list {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 #list tr {

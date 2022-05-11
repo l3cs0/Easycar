@@ -4,7 +4,8 @@ html {
     background: url(./img/Background.jpg);
     background-size: cover;
 }
-header{
+
+header {
     background-color: black;
     width: 100%;
     height: 60px;
@@ -15,42 +16,43 @@ header{
     z-index: 1;
 }
 
-#logoleft{
+#logoleft {
     float: left;
     padding-left: 10px;
-    img{
+
+    img {
         height: 50px;
         padding-top: 5px;
     }
 }
 
-#logoright{
+#logoright {
     float: right;
     padding-right: 10px;
-    img{
-    height: 40px;
-    padding-top: 10px;
+
+    img {
+        height: 40px;
+        padding-top: 10px;
     }
 }
 
 
 
-section{
-    margin: 70px auto 0 auto;
-    float: left;
+section {
+    margin-top: 70px;
+    position: absolute;
+    width: auto;
+    left: 10%;
+    right: 10%;
 }
 
-#sum td{
+#sum td {
     border: 1px solid black;
     background-color: yellow;
 }
 
-#list{
-align-items: center;
-}
-
-#list tr{
-    border: 1px solid black;  
+#list tr {
+    border: 1px solid black;
     border-collapse: collapse;
 }
 
