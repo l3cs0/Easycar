@@ -40,7 +40,14 @@ header {
 
 section {
     margin-top: 70px;
-    height: 90vh;
+    
+    form{
+        width: 100%;
+    }
+    div{
+        width: 100%;
+        position: relative;
+    }
 }
 
 #sum td {
