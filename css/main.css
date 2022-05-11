@@ -38,8 +38,18 @@ header {
 }
 
 section {
-  margin-top: 70px;
-  height: 90vh;
+  margin: 70px;
+}
+
+section form {
+  padding: auto;
+  width: 100%;
+}
+
+section div {
+  padding: auto;
+  width: 100%;
+  position: relative;
 }
 
 #sum td {

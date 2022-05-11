@@ -40,26 +40,24 @@
         </header>
         <section id="site">
             <form autocomplete="off" onsubmit="addFahrt(); return false;">
-                <table class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="eingabe">
+                <table id="eingabe">
                     <td><input type="text" value="" pattern="\d+(.\d{1})?" required="required" id="price" placeholder="Preis" autofocus required tabindex="1"></li>
                     <td><input type="text" value="" pattern="\d+(.\d{1})?" required="required" id="tipp" placeholder="Trinkgeld" required tabindex="2"></li>
-                    <td><input type="submit" class="mdl-button mdl-js-button mdl-button--raised" tabindex="3"></li>
+                    <td><input type="submit" tabindex="3"></li>
                 </table>
             </form>
-            <div>
-                <table id="list">
-                    <tr>
-                        <th width="10px">Nr.: </th>
-                        <th width="50px">Preis: </th>
-                        <th width="50px">Trinkgeld: </th>
-                        <th width="100px">Uhrzeit: </th>
-                        <th width="100px">Datum: </th>
-                    </tr>
-                </table>
-                <table id="sum">
+            <table id="list">
+               <tr>
+                   <th width="10px">Nr.: </th>
+                   <th width="50px">Preis: </th>
+                   <th width="50px">Trinkgeld: </th>
+                   <th width="100px">Uhrzeit: </th>
+                   <th width="100px">Datum: </th>
+               </tr>
+           </table>
+           <table id="sum">
 
-                </table>
-            </div>
+           </table>
         </section>
     </body>
 </html>

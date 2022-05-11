@@ -2,7 +2,7 @@ html {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     background: url(./img/Background.jpg);
-    background-size: cover;
+    background-size:cover;
 }
 
 header {
@@ -39,12 +39,14 @@ header {
 
 
 section {
-    margin-top: 70px;
+    margin: 70px;
     
     form{
+        padding: auto;
         width: 100%;
     }
     div{
+        padding: auto;
         width: 100%;
         position: relative;
     }
