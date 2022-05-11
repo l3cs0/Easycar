@@ -8,7 +8,7 @@ html {
 header {
   background-color: black;
   width: 100%;
-  height: 1fr;
+  height: 60px;
   position: fixed;
   top: 0;
   left: 0;
@@ -39,10 +39,7 @@ header {
 
 section {
   margin-top: 70px;
-  position: absolute;
-  width: auto;
-  left: 10%;
-  right: 10%;
+  height: 90vh;
 }
 
 #sum td {

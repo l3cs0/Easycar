@@ -40,10 +40,7 @@ header {
 
 section {
     margin-top: 70px;
-    position: absolute;
-    width: auto;
-    left: 10%;
-    right: 10%;
+    height: 90vh;
 }
 
 #sum td {
@@ -51,8 +48,11 @@ section {
     background-color: yellow;
 }
 
-#list tr {
-    border: 1px solid black;
-    border-collapse: collapse;
+#list{
+    
+    tr {
+       border: 1px solid black;
+        border-collapse: collapse;
+    }
 }
 
