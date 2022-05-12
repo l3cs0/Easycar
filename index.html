@@ -27,6 +27,9 @@
                 sum.innerHTML =`<tr><td>Summe: ${summe1} </td><td>Trinkgeld: ${summe2} </td></tr>`;
                 price.value = "";
                 tipp.value = "";
+                window.onbeforeunload = function() {
+                  return "bist du sicher";
+                };
             }
         </script>
     </head>
