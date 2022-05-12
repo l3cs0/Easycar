@@ -49,9 +49,25 @@ section {
 
 section input {
   width: 100px;
+  height: auto;
 }
 
 section td {
   width: 20px;
+}
+
+#list td {
+  border-style: solid;
+  border-width: 1px;
+}
+
+#list th {
+  background-color: gold;
+}
+
+#sum td {
+  border-style: solid;
+  border-width: 1px;
+  background-color: gold;
 }
 /*# sourceMappingURL=main.css.map */

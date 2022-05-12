@@ -43,10 +43,28 @@ section {
     justify-content: center;
     input{
         width: 100px;
+        height: auto;
     }
     td{
         width: 20px
     }
 }
 
+#list{
+    td{
+        border-style: solid;
+        border-width: 1px;
+    }
+    th{
+        background-color: gold;
+    }
+}
+
+#sum{
+    td{
+        border-style: solid;
+        border-width: 1px;
+        background-color: gold;
+    }
+}
 
