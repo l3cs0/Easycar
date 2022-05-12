@@ -47,8 +47,15 @@ section {
 }
 
 section input {
-  width: 100px;
-  height: auto;
+  width: 115px;
+  height: 20px;
+}
+
+section #submit {
+  height: 30px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: gold;
 }
 
 section td {

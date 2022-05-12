@@ -41,8 +41,14 @@ section {
     display: flex;
     justify-content: center;
     input{
-        width: 100px;
-        height: auto;
+        width: 115px;
+        height: 20px;
+    }
+    #submit{
+        height: 30px;
+        border-radius: 10px;
+        border-color: black;
+        background-color: gold;
     }
     td{
         width: 20px
